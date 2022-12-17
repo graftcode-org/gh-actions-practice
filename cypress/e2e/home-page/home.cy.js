@@ -25,7 +25,7 @@ describe("example to-do app", () => {
   });
 
   it("renders the react logo", () => {
-    cy.get("img.App-logo").should("have.length", 1);
+    cy.get("img.App-logo1").should("have.length", 1);
   });
 
   it("renders link to react documentation", () => {
